@@ -37,3 +37,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Install Flask dependencies
+      run: pip install -r flask_app/requirements.txt
+    - name: Install Django dependencies
+      run: pip install -r django_project/requirements.txt
+    - name: Test Flask app with pytest
+      run: pytest flask_app
+    - name: Test Django project
+      run: python django_project/manage.py test
