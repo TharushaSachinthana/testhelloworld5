@@ -21,3 +21,5 @@ This repository contains a sample Flask and Django project.
 3. Run migrations: `python manage.py migrate`
 4. Run the server: `python manage.py runserver`
 5. Run tests: `python manage.py test`
+
+//this is  test commit
